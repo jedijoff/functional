@@ -15,7 +15,7 @@ def urlify(string):
     return '-'.join(string.lower().split())
 
 def full_url(string):
-    return [f'https://example.com/{urlify(state)}' for state in states ]
+    return [f'https://example.com/{urlify(state)}' for state in states]
 
 
 print(functional_urls(states))
